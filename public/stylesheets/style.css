@@ -1,0 +1,55 @@
+/* style.css */
+
+body {
+    background-color: #212121;  /* Dark grey background */
+    color: #f5f5f5;  /* Light grey text */
+    font-family: Arial, sans-serif;  /* Simple, professional font */
+  }
+  
+  a {
+    color: #90caf9;  /* Blue links for contrast and visibility */
+    text-decoration: none;  
+  }
+  
+  header {
+    background-color: #333333;  /* Darker grey for the header */
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 10px;
+  }
+  
+  nav a {
+    color: #f5f5f5;
+    margin: 0 15px;
+    text-transform: uppercase;  /* Capitalize navigation items for style */
+  }
+  
+  nav a:hover {
+    color: #90caf9;  /* Change color on hover */
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px 10px;
+  }
+  
+  h1 {
+    color: #ffffff;  /* White header for emphasis */
+  }
+  
+  footer {
+ /* Same color as the header */
+    color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  

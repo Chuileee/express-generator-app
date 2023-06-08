@@ -12,18 +12,18 @@ router.get('/home', function(req, res, next) {
 });
 /* GET about us page. */
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About' });
+  res.render('about', { title: 'About' });
 });
 /* GET home page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
+  res.render('contact', { title: 'Contact' });
 });
 /* GET home page. */
 router.get('/project', function(req, res, next) {
-  res.render('index', { title: 'Project' });
+  res.render('project', { title: 'Project' });
 });
 /* GET home page. */
 router.get('/service', function(req, res, next) {
-  res.render('index', { title: 'Service' });
+  res.render('service', { title: 'Service' });
 });
 module.exports = router;
