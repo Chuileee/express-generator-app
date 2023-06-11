@@ -1,0 +1,129 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #4e4e4e;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+  color: #216c95;
+  margin-bottom: 10px;
+  font-size: 22px;
+  padding-left: 20px;
+  }
+  h2 {
+    font-size: 22px;
+    padding-left: 20px;
+    
+    }
+  /* Canvas wrapper styles */
+  #canvasWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Canvas container styles */
+  #canvasContainer {
+    width: 805px;
+    height: 605px; 
+    background-color: rgba(240, 248, 255, 0.5);
+    position: relative;
+  }
+  
+  
+  /* Canvas styles */
+  #gameCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 5px solid #3db3d3;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  #header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3db3d3;
+    padding: 15px;
+   
+  }
+  
+  #header h1 {
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0 20px;
+  }
+  
+  #header img {
+    width: 60px;
+    height: auto;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  /* Scoreboard styles */
+  #scoreboard {
+    font-size: 32px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Controls styles */
+  #controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  button {
+    font-size: 22px;
+    padding: 15px 30px;
+    background-color: #f15d4d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff7d61;
+  }
+  
+  /* Footer styles */
+  #footer {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  #footer a {
+    color: #3db3d3;
+    text-decoration: none;
+  }
+  
+  #footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animation */
+  @keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  

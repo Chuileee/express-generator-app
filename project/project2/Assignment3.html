@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bug Smasher</title>
+    <link rel="stylesheet" href="assignment3.css">
+   <script src="assignment3.js" defer></script>
+ </head>
+ <body>
+   <div id="header">
+     <h1>Bug Smasher Game</h1>
+     <img src="ladybug.png" alt="Bug">
+   </div>
+   
+  <h2>Bug Smasher Game Instructions</h3>
+  <p>Welcome to the Bug Smasher game! In this game, 
+    your goal is to smash as many bugs as you can within the time limit. 
+    The game gets more challenging as the bugs move faster over time.</p>
+  <div id="controls">
+  <button id="startGameBtn">Start Game</button>
+  <button id="resetGameBtn">Reset Game</button>
+  <button id="resetSpeedBtn">Reset Speed</button>
+</div>
+<div id="scoreboard">
+  Score: <span id="score">0</span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;
+  Time Remaining: <span id="timeRemaining">30</span> seconds
+</div>
+   <div id="canvasWrapper">
+    <div id="canvasContainer">
+      <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+  </div>
+
+   <div id="footer">
+     &copy; 2023 Bug Smasher Game | Designed by Chui Lee</a>
+   </div>
+ </body>
+</html>
