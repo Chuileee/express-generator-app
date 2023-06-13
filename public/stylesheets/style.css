@@ -1,16 +1,28 @@
 body {
-  background-color: #212121; /* Dark grey background */
+  background-color: #000000; /* Dark background */
   color: #f5f5f5; /* Light grey text */
-  font-family: Arial, sans-serif; /* Simple, professional font */
+  font-family: Arial, sans-serif; 
+  background-image: url('/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1200px !important; /* Set the desired width for the container */
+  max-width: 100%;
+  padding: 20px 10px;
+  background: rgba(246, 246, 246, 0.778);
+  border-radius: 10px;
+}
+
+
 a {
-  color: #90caf9; /* Blue links for contrast and visibility */
+  color: #45a049; /* Green links */
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
@@ -23,7 +35,7 @@ a:hover {
 }
 
 header {
-  background-color: #333333; /* Darker grey for the header */
+  background-color: #1a1a1a;
   padding: 20px 0;
   position: sticky;
   top: 0;
@@ -46,11 +58,11 @@ nav a:hover {
   color: #90caf9; /* Change color on hover */
 }
 
-.container {
+nav.navbar {
   margin: 0 auto;
-  max-width: 960px;
-  padding: 20px 10px;
+  max-width: 1200px; /* Set the maximum width to match the container */
 }
+
 
 h1 {
   color: #ffffff; /* White header for emphasis */
@@ -75,32 +87,20 @@ p {
 }
 
 footer {
-  background-color: #333333; /* Same color as the header */
   color: #f5f5f5;
   padding: 20px 0;
   text-align: center;
 }
 
-.service-image {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-}
-
 .project {
   margin-bottom: 30px;
   padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid #504c4c;
   border-radius: 5px;
 }
 
-.project h2 {
-  color: #444;
-  margin-bottom: 10px;
-}
-
-.project p {
-  color: #666;
+.project h2, .project p {
+  color: #1a1a1a;
   margin-bottom: 10px;
 }
 
@@ -109,10 +109,6 @@ footer {
   height: auto;
   margin: 10px 0;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
-}
-
-.project ul {
-  margin-bottom: 10px;
 }
 
 .project-link {
@@ -126,5 +122,78 @@ footer {
 }
 
 .project-link:hover {
-  background: #555;
+  background: #45a049;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.service-image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.service-details {
+  flex-grow: 1;
+}
+
+.service-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.welcome-image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.welcome-content {
+  flex-grow: 1;
+}
+
+.welcome-message {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact-image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.contact-info {
+  flex-grow: 1;
 }
