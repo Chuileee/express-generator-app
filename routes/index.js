@@ -26,4 +26,5 @@ router.get('/project', function(req, res, next) {
 router.get('/service', function(req, res, next) {
   res.render('service', { title: 'Service' });
 });
+
 module.exports = router;
